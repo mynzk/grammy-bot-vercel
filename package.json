@@ -2,12 +2,13 @@
   "name": "grammy-bot-vercel",
   "version": "1.1.0",
   "description": "Grammy Bot Vercel",
-  "main": "src/index.ts",
+  "main": "api/index.ts",
   "author": "",
   "homepage": "",
   "dependencies": {
     "@vercel/node": "^3.2.24",
     "dotenv-cli": "^7.4.2",
+    "express": "^4.21.1",
     "grammy": "^1.31.3",
     "telegraf": "^4.16.3"
   },
