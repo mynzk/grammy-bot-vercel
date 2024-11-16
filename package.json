@@ -1,7 +1,7 @@
 {
-  "name": "telegram-bot-vercel",
+  "name": "grammy-bot-vercel",
   "version": "1.1.0",
-  "description": "Telegram Bot Vercel",
+  "description": "Grammy Bot Vercel",
   "main": "src/index.ts",
   "author": "",
   "homepage": "",
