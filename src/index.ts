@@ -1,5 +1,5 @@
 import { Bot } from 'grammy'
-import { about } from './commands';
+import { about, refer } from './commands';
 import { greeting } from './text';
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { development, production } from './core';
@@ -11,6 +11,7 @@ export const bot = new Bot(BOT_TOKEN);
 
 
 bot.command('about', about());
+bot.command('refer', refer());
 bot.on('message', greeting());
 
 
