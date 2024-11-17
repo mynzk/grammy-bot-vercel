@@ -1,7 +1,6 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import createDebug from 'debug';
 import { Bot, webhookCallback } from 'grammy';
-import { bot } from '../index';
 
 const debug = createDebug('bot:dev');
 
